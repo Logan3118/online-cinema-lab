@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MusicService>
+  <Metadata>
+    <ExportDate>2024-01-15T10:00:00</ExportDate>
+    <Version>1.0</Version>
+  </Metadata>
+  <Users>
+    <User>
+      <user_id>user_001</user_id>
+      <username>music_lover</username>
+      <email>music@example.com</email>
+      <premium>true</premium>
+      <created_at>2024-01-10T09:00:00</created_at>
+    </User>
+    <User>
+      <user_id>user_002</user_id>
+      <username>rock_fan</username>
+      <email>rock@example.com</email>
+      <premium>false</premium>
+      <created_at>2024-01-11T10:00:00</created_at>
+    </User>
+  </Users>
+  <Artists>
+    <Artist>
+      <artist_id>artist_001</artist_id>
+      <name>Queen</name>
+      <bio>British rock band formed in London in 1970</bio>
+    </Artist>
+    <Artist>
+      <artist_id>artist_002</artist_id>
+      <name>The Beatles</name>
+      <bio>English rock band formed in Liverpool in 1960</bio>
+    </Artist>
+    <Artist>
+      <artist_id>artist_003</artist_id>
+      <name>Pink Floyd</name>
+      <bio>English rock band formed in London in 1965</bio>
+    </Artist>
+  </Artists>
+  <Tracks>
+    <Track>
+      <track_id>track_001</track_id>
+      <title>Bohemian Rhapsody</title>
+      <duration>355</duration>
+      <artist>Queen</artist>
+      <file_path>/music/queen/bohemian_rhapsody.mp3</file_path>
+      <stream_count>0</stream_count>
+      <album>A Night at the Opera</album>
+    </Track>
+    <Track>
+      <track_id>track_002</track_id>
+      <title>Yesterday</title>
+      <duration>125</duration>
+      <artist>The Beatles</artist>
+      <file_path>/music/beatles/yesterday.mp3</file_path>
+      <stream_count>0</stream_count>
+      <album>Help!</album>
+    </Track>
+  </Tracks>
+  <Albums>
+    <Album>
+      <album_id>album_001</album_id>
+      <title>A Night at the Opera</title>
+      <artist>Queen</artist>
+      <release_date>1975-11-21</release_date>
+      <genre>Rock</genre>
+    </Album>
+    <Album>
+      <album_id>album_002</album_id>
+      <title>Help!</title>
+      <artist>The Beatles</artist>
+      <release_date>1965-08-06</release_date>
+      <genre>Rock</genre>
+    </Album>
+  </Albums>
+</MusicService>

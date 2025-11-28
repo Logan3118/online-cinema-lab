@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "export_date": "2024-01-15T10:00:00",
+    "version": "1.0"
+  },
+  "users": [
+    {
+      "user_id": "user_001",
+      "username": "music_lover",
+      "email": "music@example.com",
+      "premium": true,
+      "created_at": "2024-01-10T09:00:00"
+    },
+    {
+      "user_id": "user_002",
+      "username": "rock_fan",
+      "email": "rock@example.com",
+      "premium": false,
+      "created_at": "2024-01-11T10:00:00"
+    }
+  ],
+  "artists": [
+    {
+      "artist_id": "artist_001",
+      "name": "Queen",
+      "bio": "British rock band formed in London in 1970"
+    },
+    {
+      "artist_id": "artist_002",
+      "name": "The Beatles",
+      "bio": "English rock band formed in Liverpool in 1960"
+    },
+    {
+      "artist_id": "artist_003",
+      "name": "Pink Floyd",
+      "bio": "English rock band formed in London in 1965"
+    }
+  ],
+  "tracks": [
+    {
+      "track_id": "track_001",
+      "title": "Bohemian Rhapsody",
+      "duration": 355,
+      "artist": "Queen",
+      "file_path": "/music/queen/bohemian_rhapsody.mp3"
+    },
+    {
+      "track_id": "track_002",
+      "title": "Yesterday",
+      "duration": 125,
+      "artist": "The Beatles",
+      "file_path": "/music/beatles/yesterday.mp3"
+    },
+    {
+      "track_id": "track_003",
+      "title": "Comfortably Numb",
+      "duration": 382,
+      "artist": "Pink Floyd",
+      "file_path": "/music/pink_floyd/comfortably_numb.mp3"
+    },
+    {
+      "track_id": "track_004",
+      "title": "We Will Rock You",
+      "duration": 122,
+      "artist": "Queen",
+      "file_path": "/music/queen/we_will_rock_you.mp3"
+    }
+  ],
+  "albums": [
+    {
+      "album_id": "album_001",
+      "title": "A Night at the Opera",
+      "artist": "Queen",
+      "release_date": "1975-11-21",
+      "genre": "Rock"
+    },
+    {
+      "album_id": "album_002",
+      "title": "Help!",
+      "artist": "The Beatles",
+      "release_date": "1965-08-06",
+      "genre": "Rock"
+    }
+  ],
+  "playlists": [
+    {
+      "playlist_id": "playlist_001",
+      "name": "Classic Rock Hits",
+      "description": "The best classic rock songs",
+      "owner": "music_lover",
+      "is_public": true,
+      "created_date": "2024-01-12T14:30:00",
+      "tracks": [
+        {
+          "track_id": "track_001",
+          "title": "Bohemian Rhapsody",
+          "artist": "Queen",
+          "position": 1
+        },
+        {
+          "track_id": "track_003",
+          "title": "Comfortably Numb",
+          "artist": "Pink Floyd",
+          "position": 2
+        }
+      ]
+    }
+  ]
+}
